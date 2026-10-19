@@ -1,4 +1,4 @@
-![ci](https://github.com/<USERNAME>/service-report-pdf-fa/actions/workflows/ci.yml/badge.svg)
+![ci](https://github.com/parissaahmadi/service-report-pdf-fa/actions/workflows/ci.yml/badge.svg)
 
 # service-report-pdf-fa
 
