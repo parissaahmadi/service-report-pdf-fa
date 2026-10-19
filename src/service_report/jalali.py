@@ -10,7 +10,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import date
-from functools import lru_cache
+from functools import cache
 
 MIN_YEAR = 1200
 MAX_YEAR = 1600
@@ -52,7 +52,7 @@ def _check_year(year: int) -> None:
         raise ValueError(f"Jalali year {year} outside supported range {MIN_YEAR}..{MAX_YEAR}")
 
 
-@lru_cache(maxsize=None)
+@cache
 def _year_start(year: int) -> int:
     """Gregorian ordinal of 1 Farvardin of ``year``."""
     _check_year(year)

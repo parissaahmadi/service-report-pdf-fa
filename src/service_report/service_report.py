@@ -9,8 +9,8 @@ from . import fingerprint as fp
 from . import fmt, numwords
 from .fingerprint import DataError
 from .i18n import Ctx, Num, Raw, bi, label
-from .layout import MUTED, Cell, Doc, Line, head_cell, header_names, kv, sign_boxes
 from .layout import BAND as _BAND
+from .layout import MUTED, Cell, Doc, Line, head_cell, header_names, kv, sign_boxes
 
 _RIAL = Decimal(1)
 

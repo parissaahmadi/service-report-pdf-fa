@@ -10,8 +10,19 @@ from . import fmt
 from .fingerprint import DataError
 from .i18n import Ctx, Num, Raw, bi, label
 from .layout import (
-    FAIL_BG, FAIL_FG, MUTED, PASS_BG, PASS_FG, Cell, Doc, Line, head_cell, header_names, kv,
-    sign_boxes, verdict,
+    FAIL_BG,
+    FAIL_FG,
+    MUTED,
+    PASS_BG,
+    PASS_FG,
+    Cell,
+    Doc,
+    Line,
+    head_cell,
+    header_names,
+    kv,
+    sign_boxes,
+    verdict,
 )  # fmt: skip
 
 RULES = ("simple", "guard_band")

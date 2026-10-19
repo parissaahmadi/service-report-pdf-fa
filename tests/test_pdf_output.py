@@ -1,8 +1,8 @@
 import copy
 from pathlib import Path
 
-from fontTools.ttLib import TTFont
 import pdfplumber
+from fontTools.ttLib import TTFont
 
 from service_report import certificate, cli, layout, service_report
 from service_report import fingerprint as fp
