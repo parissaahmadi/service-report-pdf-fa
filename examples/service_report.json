@@ -1,0 +1,45 @@
+{
+  "report_no": "SR-2026-01893",
+  "service_date": "2026-10-07",
+  "next_service_date": "2027-04-07",
+  "tax_percent": 10,
+  "labor_rate": 3500000,
+  "company": {"name": {"fa": "خدمات فنی ونکوس", "en": "Vortex Technical Services"}},
+  "customer": {
+    "name": {"fa": "صنایع ماشین‌سازی آیرون‌وود", "en": "Ironwood Machinery Works"},
+    "address": {"fa": "شهرک صنعتی نمونه، خیابان سوم، پلاک ۱۲", "en": "Sample Industrial Park, 3rd Street, No. 12"}
+  },
+  "machine": {
+    "description": {"fa": "کمپرسور هوای پیچی", "en": "Screw air compressor"},
+    "manufacturer": {"fa": "کوانتا", "en": "Quanta"},
+    "model": "QSC-75",
+    "serial": "QN-75-20418",
+    "hours": 12480,
+    "location": {"fa": "سالن تولید ۲، ایستگاه هوای فشرده", "en": "Production hall 2, compressed-air station"}
+  },
+  "technician": {"fa": "نمونه — تکنسین ج", "en": "Sample Technician C"},
+  "complaint": {
+    "fa": "افت فشار خروجی هنگام بار کامل و افزایش دمای روغن تا ۱۰۵ درجه‌ی سانتی‌گراد. دستگاه چند بار با آلارم دمای بالا متوقف شد.",
+    "en": "Output pressure drops under full load and the oil temperature rises to 105 °C. The unit tripped several times on the high-temperature alarm."
+  },
+  "root_cause": {
+    "fa": "مسدود شدن فیلتر روغن و جداکننده‌ی هوا-روغن به‌دلیل گذشتن از فاصله‌ی تعویض؛ همچنین گرفتگی پره‌های رادیاتور خنک‌کننده.",
+    "en": "The oil filter and air/oil separator were clogged because their service interval had been exceeded. The cooler fins were also blocked with dust."
+  },
+  "actions": [
+    {"description": {"fa": "تخلیه‌ی روغن و تعویض فیلتر روغن", "en": "Drained oil and replaced the oil filter"}, "hours": 1.5},
+    {"description": {"fa": "تعویض جداکننده‌ی هوا-روغن", "en": "Replaced the air/oil separator"}, "hours": 2},
+    {"description": {"fa": "تمیزکاری رادیاتور با هوای خشک و شستشوی ملایم", "en": "Cleaned the cooler with dry air and a gentle wash"}, "hours": 1},
+    {"description": {"fa": "تست زیر بار کامل به مدت ۶۰ دقیقه و ثبت دما و فشار", "en": "60-minute full-load test with temperature and pressure logging"}, "hours": 1.5}
+  ],
+  "parts": [
+    {"code": "OF-75-A", "name": {"fa": "فیلتر روغن", "en": "Oil filter"}, "qty": 1, "unit_price": 4250000},
+    {"code": "AOS-75-B", "name": {"fa": "جداکننده‌ی هوا-روغن", "en": "Air/oil separator"}, "qty": 1, "unit_price": 18600000},
+    {"code": "LUB-46-20", "name": {"fa": "روغن کمپرسور (لیتر)", "en": "Compressor oil (litre)"}, "qty": 20, "unit_price": 1350000},
+    {"code": "GSK-75-K", "name": {"fa": "کیت واشر", "en": "Gasket kit"}, "qty": 1, "unit_price": 1980000}
+  ],
+  "recommendation": {
+    "fa": "فیلتر هوای ورودی و روغن هر ۲۰۰۰ ساعت بازرسی شود. تمیزکاری رادیاتور هر سه ماه انجام شود. در سرویس بعدی تسمه و شیر ورودی بررسی گردد.",
+    "en": "Inspect the intake air filter and oil every 2,000 hours. Clean the cooler every three months. Check the belt and the inlet valve at the next service."
+  }
+}
