@@ -1,0 +1,54 @@
+{
+  "certificate_no": "CAL-2026-00417",
+  "issue_date": "2026-10-05",
+  "calibration_date": "2026-10-04",
+  "next_due_date": "2027-10-04",
+  "decision_rule": "simple",
+  "lab": {
+    "name": {"fa": "آزمایشگاه کالیبراسیون نیمبوس", "en": "Nimbus Calibration Laboratory"}
+  },
+  "customer": {
+    "name": {"fa": "صنایع ماشین‌سازی آیرون‌وود", "en": "Ironwood Machinery Works"},
+    "address": {"fa": "شهرک صنعتی نمونه، خیابان سوم، پلاک ۱۲", "en": "Sample Industrial Park, 3rd Street, No. 12"}
+  },
+  "instrument": {
+    "description": {"fa": "ترانسمیتر فشار صنعتی", "en": "Industrial pressure transmitter"},
+    "manufacturer": {"fa": "هلیکس", "en": "Helix"},
+    "model": "HP-200",
+    "serial": "HX-2203-118",
+    "asset_tag": "AT-0042",
+    "range": "0 - 200 bar",
+    "resolution": "0.1 bar",
+    "unit": "bar"
+  },
+  "environment": {"temperature_c": 22.4, "humidity_pct": 46, "pressure_kpa": 101.3},
+  "references": [
+    {
+      "name": {"fa": "کالیبراتور فشار دیجیتال", "en": "Digital pressure calibrator"},
+      "id": "REF-DPC-07",
+      "certificate": "QC-88213",
+      "valid_until": "2027-02-01"
+    },
+    {
+      "name": {"fa": "دماسنج مرجع", "en": "Reference thermometer"},
+      "id": "REF-THM-02",
+      "certificate": "QC-77410",
+      "valid_until": "2027-05-15"
+    }
+  ],
+  "points": [
+    {"nominal": 0,   "measured": 0.1,   "tolerance": 0.5, "uncertainty": 0.15},
+    {"nominal": 50,  "measured": 49.9,  "tolerance": 0.5, "uncertainty": 0.15},
+    {"nominal": 100, "measured": 100.2, "tolerance": 0.5, "uncertainty": 0.15},
+    {"nominal": 150, "measured": 150.3, "tolerance": 0.5, "uncertainty": 0.18},
+    {"nominal": 200, "measured": 199.6, "tolerance": 0.5, "uncertainty": 0.18}
+  ],
+  "remarks": {
+    "fa": "ابزار پیش از تنظیم نیز در محدوده‌ی تلرانس بود؛ تنظیمی انجام نشد.",
+    "en": "The instrument was within tolerance as received; no adjustment was made."
+  },
+  "signatures": [
+    {"role": "calibrated_by", "name": {"fa": "نمونه — تکنسین الف", "en": "Sample Technician A"}},
+    {"role": "approved_by", "name": {"fa": "نمونه — مدیر فنی ب", "en": "Sample Technical Manager B"}}
+  ]
+}
